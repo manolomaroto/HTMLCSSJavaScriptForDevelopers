@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>child selector</title>
+		<meta charset="utf-8">
+		<style>
+			section > article{
+				color: green;
+				font-size: 24px;
+			}
+
+			section > h2{
+				color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Child selector</h1>
+		<section>
+			<h2>Subheading 1</h2>
+			<div>
+				<article>ARTICLE wich inside DIV, wich is inside section</article>
+			</div>
+		</section>
+		<section>
+			<article>Article as a direct child of the section element</article>
+		</section>
+		<h2>Subheading h2</h2>
+	</body>
+</html>
