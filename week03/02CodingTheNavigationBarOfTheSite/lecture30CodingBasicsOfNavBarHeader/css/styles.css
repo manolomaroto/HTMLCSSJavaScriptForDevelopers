@@ -247,6 +247,21 @@ body {
 	background-color: #557c3e;
 	text-align: center;
 }
+
+.menu-item-description {
+	padding-right: 30px;
+}
+
+h3.menu-item-title {
+	margin: 0 0 10px;
+}
+
+.menu-item-details{
+	font-size: .9em;
+	font-style: italic;
+}
+
+
 /* end single category page*/
 
 /************* Large devices only *****************/
@@ -361,6 +376,18 @@ body {
 	#menu-tile, #specials-tile {
 		width: 360px;
 		margin: 0 auto 15px;
+	}
+
+	.menu-item-photo{
+		margin-right: auto;
+	}
+
+	.menu-item-tile .menu-item-price{
+		text-align: center;
+	}
+
+	.menu-item-description{
+		text-align: center;
 	}
 }
 
