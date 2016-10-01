@@ -1,0 +1,32 @@
+#chicken{
+	background-color: #f99;
+}
+
+#beef{
+	background-color: #9f9;
+}
+
+#shushi{
+	background-color: #99f;
+}
+
+#chicken, #beef, #shushi{
+	height: 1000px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+p{
+	padding: 10px;
+
+}
+
+
+
+
+
+@media (max-width: 767px){
+	.container-fluid{
+		width: 75%;
+	}
+}
