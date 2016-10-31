@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded",function(){
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     homeHtml,
-    function(responseText){
-      document.querySelector("#main-content").innerHTML = responseText;
+    function(responseXML){
+      document.querySelector("#main-content").innerHTML = responseXML;
     },
     false);
 });
